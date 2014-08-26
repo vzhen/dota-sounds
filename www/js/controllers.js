@@ -1,7 +1,6 @@
 angular.module('dotaSoundTrack.controllers', [])
 
 .controller('homeCtrl', function($scope, $ionicModal) {
-	
 	$scope.clickMe = function() {
 		var getRandomNumber = Math.floor((Math.random() * 100) + 1);
 
